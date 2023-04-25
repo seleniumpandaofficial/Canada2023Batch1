@@ -1,0 +1,114 @@
+Xpath is called the address of a Web Element
+
+//Xpaths are of two types
+
+1. Absolute Xpath - are very accurate but absolutely not advised to use in Automation coding
+2. Relative Xpath (Dynamic Xpath / Customized Xpath)
+
+/html/body/header/div/div/div[2]/div/input - Absolute xpath or full xpath
+/html/body/header/div[1]/div[1]/div[2]/div[1]/input
+
+Xpath basic syntax
+WebElement -> Right Click -> Inspect Element
+F12 key press - may be the DOM will open and if not
+Browser three vertical dots --> More tools --> Developer tools
+
+
+SYNTAX NO 1. //htmltag [@attribute = 'value']
+             //a[@class = 'signin']
+             
+SYNTAX NO 2.  //htmltag[@attribute1 = 'value' and @attribute2 = 'value']
+              //input[@name = 'passwd' and @id = 'password']
+
+SYNTAX NO 3.  //htmltag[@attribute1 = 'value' or @attribute2 = 'value']
+
+SYNTAX NO 4.  Used for links
+              //html[text() = 'valueofthetext']
+              //a[text() = 'Sign in']
+
+SYNTAX No 5. It is used for WebElements of any type - Using contains keyword
+
+              //html[contains(@attribute, 'value')]
+              //input[contains(@id, 'login1')]
+              
+              //html[contains(text(), 'value')]
+              //a[contains(text(),'Sign in')]
+
+SYNTAX No 7. This is rarely used but comes handy when we encounter such kind of WebElements
+             if the value of a certain attribute changes but a certain portion changes. A certain portion remains fixed
+             
+             //html[starts-with(@attribute, 'startingvalue')]
+             //input[starts-with(@name, 'name')]
+             
+             //html[ends-with(@attribute, 'endingvalue')]
+             
+ ----------------------------------------------------------------------------------------------------------
+ 
+ Customized Xpaths
+
+parent
+child
+ancestor
+descendant
+following-sibling
+preceding-sibling
+following
+preceding
+
+Let's say there is a WebElement which does not have any kind of concrete attributes that can be used to create Xpaths
+
+That WebElement will not start as the root element rather some other WebElement will start as the root element and it will traverse to
+the actual WebElement whose xpath needs to be determined.
+
+//li[@class = 'logo']/descendant::img[1]
+
+//html[could be any of the 7 syntaxes]/keyword::html[indexing or you can give of the 7 syntaxes]/keyword::html[indexing or 7 syntaxes]
+
+//div[@id = 'banner_android']/following-sibling::nav[1]/descendant::img[1]
+//div[@id = 'banner_android']/following-sibling::nav[@id = 'nav-website']/descendant::img[1]
+//div[@id = 'banner_android']/following-sibling::nav[contains(@id, 'nav-website')]/descendant::img[1]
+
+//li[@id = 'hamburger']/preceding::img[1]
+//main[@class = 'wrapper']/preceding-sibling::nav[@id = 'nav-website']/descendant::img[1]
+//main[@class = 'wrapper']/preceding::img[2]
+
+if developer changes the id without informing then you can fight with the developer
+
+--------------------------------------------
+By.linkText("Create Account").click();
+
+//a[text() = 'Create Account']
+//a[contains(text(), 'Create Account')]
+//a[@class = 'signin']/following-sibling::a[1]
+//a[contains(@class, 'signin')]/following-sibling::a[1]
+//a[text() = 'Sign in']/following-sibling::a[1]
+//a[text() = 'Sign in']/following-sibling::a[contains(text(), 'Create Account')]
+//input[@id = 'OAS_subsection']/following::a[contains(text(), 'Create Account')]
+//input[@id = 'OAS_subsection']/following-sibling::div[@class = 'logobar']/descendant::p[@id = 'signin_info']/child::a[2]
+//input[@id = 'OAS_subsection']/following-sibling::div[@class = 'logobar']/descendant::p[@id = 'signin_info']/child::a[contains(text(), 'Create Account')]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+ 
