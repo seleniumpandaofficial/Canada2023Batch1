@@ -6,12 +6,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import automation_code_ScreenRecording.ScreenRecoderUtil;
+
 public class TestCases_Rediff_TN_ExcelSheet {
 	
 	public WebDriver driver;
 
 	@Test(priority = 2, dataProvider = "Rediff", dataProviderClass = ExcelData.class)
-	public void enterRediffLogicDetails(String username, String password) {
+	public void enterRediffLogicDetails(String username, String password) throws Exception {
+		ScreenRecoderUtil.startRecord("enterRediffLogicDetails");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
@@ -19,10 +22,12 @@ public class TestCases_Rediff_TN_ExcelSheet {
 		driver.findElement(By.id("password")).sendKeys(password);
 		driver.findElement(By.className("signinbtn")).click();
         driver.quit();
+        ScreenRecoderUtil.stopRecord();
 	}
 
 	@Test(priority = 1, dataProvider = "TN", dataProviderClass = ExcelData.class)
-	public void enterTNLoginDetails(String username, String password) {
+	public void enterTNLoginDetails(String username, String password) throws Exception {
+		ScreenRecoderUtil.startRecord("enterTNLoginDetails");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://tutorialsninja.com/demo");
@@ -33,6 +38,7 @@ public class TestCases_Rediff_TN_ExcelSheet {
 		driver.findElement(By.cssSelector("input.btn.btn-primary")).click();
 		Assert.assertTrue(driver.findElement(By.linkText("Logout")).isDisplayed());
 		driver.quit();
+		ScreenRecoderUtil.stopRecord();
 	}
 
 }

@@ -2,92 +2,36 @@
 <testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-30T19:20:28 EDT" name="Default suite" finished-at="2023-04-30T19:21:16 EDT" duration-ms="48011">
+  <suite started-at="2023-04-30T21:59:55 EDT" name="Include Exclude Suite" finished-at="2023-04-30T21:59:56 EDT" duration-ms="33">
     <groups>
     </groups>
-    <test started-at="2023-04-30T19:20:28 EDT" name="Default test" finished-at="2023-04-30T19:21:16 EDT" duration-ms="48011">
-      <class name="file_handling_data_driven_27th_Apr_2023.TestCases_Rediff_TN_ExcelSheet">
-        <test-method signature="enterRediffLogicDetails(java.lang.String,java.lang.String)[pri:2, instance:file_handling_data_driven_27th_Apr_2023.TestCases_Rediff_TN_ExcelSheet@290222c1]" started-at="2023-04-30T19:20:28 EDT" name="enterRediffLogicDetails" data-provider="Rediff" finished-at="2023-04-30T19:20:40 EDT" duration-ms="11828" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[seleniumpanda@rediffmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Selenium@123]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-04-30T21:59:55 EDT" name="Include Exclude Test" finished-at="2023-04-30T21:59:56 EDT" duration-ms="33">
+      <class name="testng_code_include_exclude_30th_Apr_2023.LogoutTest">
+        <test-method signature="logoutCase1()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.LogoutTest@3cebbb30]" started-at="2023-04-30T21:59:55 EDT" name="logoutCase1" finished-at="2023-04-30T21:59:56 EDT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterRediffLogicDetails -->
-        <test-method signature="enterRediffLogicDetails(java.lang.String,java.lang.String)[pri:2, instance:file_handling_data_driven_27th_Apr_2023.TestCases_Rediff_TN_ExcelSheet@290222c1]" started-at="2023-04-30T19:20:40 EDT" name="enterRediffLogicDetails" data-provider="Rediff" finished-at="2023-04-30T19:20:50 EDT" duration-ms="10234" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[seleniumpanda1@rediffmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Donkey@123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- logoutCase1 -->
+      </class> <!-- testng_code_include_exclude_30th_Apr_2023.LogoutTest -->
+      <class name="testng_code_include_exclude_30th_Apr_2023.RegisterTest">
+        <test-method signature="registerCase1()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.RegisterTest@b9b00e0]" started-at="2023-04-30T21:59:56 EDT" name="registerCase1" finished-at="2023-04-30T21:59:56 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterRediffLogicDetails -->
-        <test-method signature="enterRediffLogicDetails(java.lang.String,java.lang.String)[pri:2, instance:file_handling_data_driven_27th_Apr_2023.TestCases_Rediff_TN_ExcelSheet@290222c1]" started-at="2023-04-30T19:20:50 EDT" name="enterRediffLogicDetails" data-provider="Rediff" finished-at="2023-04-30T19:21:03 EDT" duration-ms="12916" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chowdhurygs@rediffmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Shajlee1@]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- registerCase1 -->
+        <test-method signature="registerCase2()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.RegisterTest@b9b00e0]" started-at="2023-04-30T21:59:56 EDT" name="registerCase2" finished-at="2023-04-30T21:59:56 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterRediffLogicDetails -->
-        <test-method signature="enterRediffLogicDetails(java.lang.String,java.lang.String)[pri:2, instance:file_handling_data_driven_27th_Apr_2023.TestCases_Rediff_TN_ExcelSheet@290222c1]" started-at="2023-04-30T19:21:03 EDT" name="enterRediffLogicDetails" data-provider="Rediff" finished-at="2023-04-30T19:21:09 EDT" duration-ms="6040" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mohamedboudguig@rediffmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Medbgd0707@]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- registerCase2 -->
+      </class> <!-- testng_code_include_exclude_30th_Apr_2023.RegisterTest -->
+      <class name="testng_code_include_exclude_30th_Apr_2023.LoginTest">
+        <test-method signature="loginCase1()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.LoginTest@506ae4d4]" started-at="2023-04-30T21:59:56 EDT" name="loginCase1" finished-at="2023-04-30T21:59:56 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterRediffLogicDetails -->
-        <test-method signature="enterRediffLogicDetails(java.lang.String,java.lang.String)[pri:2, instance:file_handling_data_driven_27th_Apr_2023.TestCases_Rediff_TN_ExcelSheet@290222c1]" started-at="2023-04-30T19:21:09 EDT" name="enterRediffLogicDetails" data-provider="Rediff" finished-at="2023-04-30T19:21:16 EDT" duration-ms="6481" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[homa_rahimi@rediffmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Winter2021?]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- loginCase1 -->
+        <test-method signature="loginCase2()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.LoginTest@506ae4d4]" started-at="2023-04-30T21:59:56 EDT" name="loginCase2" finished-at="2023-04-30T21:59:56 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterRediffLogicDetails -->
-      </class> <!-- file_handling_data_driven_27th_Apr_2023.TestCases_Rediff_TN_ExcelSheet -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- loginCase2 -->
+      </class> <!-- testng_code_include_exclude_30th_Apr_2023.LoginTest -->
+    </test> <!-- Include Exclude Test -->
+  </suite> <!-- Include Exclude Suite -->
 </testng-results>

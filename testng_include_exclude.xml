@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Include Exclude Suite">
+	<test name="Include Exclude Test">
+		<classes>
+
+	<class name="testng_code_include_exclude_30th_Apr_2023.LogoutTest" >
+			<methods>
+				<include name="logoutCase1" />
+				<exclude name="logoutCase2" />
+			</methods>
+		   </class>
+
+	<class name="testng_code_include_exclude_30th_Apr_2023.RegisterTest" >
+            <methods>
+				<include name="registerCase1" />
+				<include name="registerCase2" />
+			</methods>
+		   </class>
+
+
+	 <class name="testng_code_include_exclude_30th_Apr_2023.LoginTest" >
+			<methods>
+				<include name="loginCase1" />
+				<include name="loginCase2" />
+			</methods>
+		   </class>
+		   
+		   
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
