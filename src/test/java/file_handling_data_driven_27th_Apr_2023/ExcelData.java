@@ -1,4 +1,4 @@
-package file_handling_data_driven;
+package file_handling_data_driven_27th_Apr_2023;
 
 import java.io.FileInputStream;
 import org.apache.poi.ss.usermodel.CellType;
@@ -29,7 +29,7 @@ public class ExcelData {
 	public static Object[][] readDataFromExcelforRediff(String sheetName) throws Exception {
 		// Step1: Create the Object of FileInputStream Class and pass the path of Excel
 		// sheet in the constructor
-		ip = new FileInputStream("C:\\Users\\autom\\eclipse-workspace\\CANADA_BATCH_MARCH_2023\\src\\test\\java\\file_handling_data_driven\\ExcelDataCode.xlsx");
+		ip = new FileInputStream("C:\\Users\\autom\\eclipse-workspace\\CANADA_BATCH_MARCH_2023\\src\\test\\java\\file_handling_data_driven_27th_Apr_2023\\ExcelDataCode.xlsx");
 
 		// .xls - we used to create the object of a class known as HSSFWorkbook
 		// .xlsx - it is new version. So we create the Object of XSSFWorkbook
@@ -80,7 +80,7 @@ public class ExcelData {
 	}
 
 	public static Object[][] readDataFromExcelforTutorialsNinja(String sheetName) throws Exception {
-		ip = new FileInputStream("C:\\Users\\autom\\eclipse-workspace\\CANADA_BATCH_MARCH_2023\\src\\test\\java\\file_handling_data_driven\\ExcelDataCode.xlsx");
+		ip = new FileInputStream("C:\\Users\\autom\\eclipse-workspace\\CANADA_BATCH_MARCH_2023\\src\\test\\java\\file_handling_data_driven_27th_Apr_2023\\ExcelDataCode.xlsx");
 		workbook = new XSSFWorkbook(ip);
 		sheet = workbook.getSheet(sheetName);
 

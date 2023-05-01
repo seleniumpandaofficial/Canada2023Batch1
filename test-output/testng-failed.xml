@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="file_handling_data_driven.TestCases_Rediff_TN_ExcelSheet">
+      <class name="file_handling_data_driven_27th_Apr_2023.TestCases_Rediff_TN_ExcelSheet">
         <methods>
+          <include name="enterTNLoginDetails"/>
           <include name="enterRediffLogicDetails"/>
         </methods>
-      </class> <!-- file_handling_data_driven.TestCases_Rediff_TN_ExcelSheet -->
+      </class> <!-- file_handling_data_driven_27th_Apr_2023.TestCases_Rediff_TN_ExcelSheet -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
