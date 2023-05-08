@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-30T21:59:55 EDT" name="Include Exclude Suite" finished-at="2023-04-30T21:59:56 EDT" duration-ms="33">
+  <suite started-at="2023-05-07T21:52:43 EDT" name="Default suite" finished-at="2023-05-07T21:52:53 EDT" duration-ms="10737">
     <groups>
     </groups>
-    <test started-at="2023-04-30T21:59:55 EDT" name="Include Exclude Test" finished-at="2023-04-30T21:59:56 EDT" duration-ms="33">
-      <class name="testng_code_include_exclude_30th_Apr_2023.LogoutTest">
-        <test-method signature="logoutCase1()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.LogoutTest@3cebbb30]" started-at="2023-04-30T21:59:55 EDT" name="logoutCase1" finished-at="2023-04-30T21:59:56 EDT" duration-ms="7" status="PASS">
+    <test started-at="2023-05-07T21:52:43 EDT" name="Default test" finished-at="2023-05-07T21:52:53 EDT" duration-ms="10737">
+      <class name="automation_code_extra_Topics.ZoomInZoomOut">
+        <test-method signature="zoomInAndOut()[pri:0, instance:automation_code_extra_Topics.ZoomInZoomOut@71a8adcf]" started-at="2023-05-07T21:52:43 EDT" name="zoomInAndOut" finished-at="2023-05-07T21:52:53 EDT" duration-ms="10712" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutCase1 -->
-      </class> <!-- testng_code_include_exclude_30th_Apr_2023.LogoutTest -->
-      <class name="testng_code_include_exclude_30th_Apr_2023.RegisterTest">
-        <test-method signature="registerCase1()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.RegisterTest@b9b00e0]" started-at="2023-04-30T21:59:56 EDT" name="registerCase1" finished-at="2023-04-30T21:59:56 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerCase1 -->
-        <test-method signature="registerCase2()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.RegisterTest@b9b00e0]" started-at="2023-04-30T21:59:56 EDT" name="registerCase2" finished-at="2023-04-30T21:59:56 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerCase2 -->
-      </class> <!-- testng_code_include_exclude_30th_Apr_2023.RegisterTest -->
-      <class name="testng_code_include_exclude_30th_Apr_2023.LoginTest">
-        <test-method signature="loginCase1()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.LoginTest@506ae4d4]" started-at="2023-04-30T21:59:56 EDT" name="loginCase1" finished-at="2023-04-30T21:59:56 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginCase1 -->
-        <test-method signature="loginCase2()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.LoginTest@506ae4d4]" started-at="2023-04-30T21:59:56 EDT" name="loginCase2" finished-at="2023-04-30T21:59:56 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginCase2 -->
-      </class> <!-- testng_code_include_exclude_30th_Apr_2023.LoginTest -->
-    </test> <!-- Include Exclude Test -->
-  </suite> <!-- Include Exclude Suite -->
+        </test-method> <!-- zoomInAndOut -->
+      </class> <!-- automation_code_extra_Topics.ZoomInZoomOut -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="file_handling_data_driven_27th_Apr_2023.TestCases_Rediff_TN_ExcelSheet">
+      <class name="automation_code_7th_May_2023.AutoSuggestive_Dropdown">
         <methods>
-          <include name="enterTNLoginDetails"/>
-          <include name="enterRediffLogicDetails"/>
+          <include name="easeMyTrip"/>
         </methods>
-      </class> <!-- file_handling_data_driven_27th_Apr_2023.TestCases_Rediff_TN_ExcelSheet -->
+      </class> <!-- automation_code_7th_May_2023.AutoSuggestive_Dropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
