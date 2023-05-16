@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation_code_7th_May_2023.AutoSuggestive_Dropdown">
+      <class name="automationcode_applicationOfDateTimeStamp.TNLoginTest">
         <methods>
-          <include name="easeMyTrip"/>
+          <include name="verifyLoginWithInvalidUsernameValidPassword"/>
         </methods>
-      </class> <!-- automation_code_7th_May_2023.AutoSuggestive_Dropdown -->
+      </class> <!-- automationcode_applicationOfDateTimeStamp.TNLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
