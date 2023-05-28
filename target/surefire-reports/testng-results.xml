@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-28T22:37:49Z" name="Batch Running Test Suite" finished-at="2023-05-28T22:38:12Z" duration-ms="22828">
+    <groups>
+    </groups>
+    <test started-at="2023-05-28T22:37:49Z" name="Rediff Login Test" finished-at="2023-05-28T22:37:59Z" duration-ms="9690">
+      <class name="testng_code_BatchRunnin_24th_Apr_2023.RediffLoginTest">
+        <test-method signature="rediffLogin()[pri:0, instance:testng_code_BatchRunnin_24th_Apr_2023.RediffLoginTest@26abb146]" started-at="2023-05-28T22:37:49Z" name="rediffLogin" finished-at="2023-05-28T22:37:59Z" duration-ms="9678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffLogin -->
+      </class> <!-- testng_code_BatchRunnin_24th_Apr_2023.RediffLoginTest -->
+    </test> <!-- Rediff Login Test -->
+    <test started-at="2023-05-28T22:37:59Z" name="Register TN Test" finished-at="2023-05-28T22:38:06Z" duration-ms="7091">
+      <class name="testng_code_BatchRunnin_24th_Apr_2023.TNRegisterTest">
+        <test-method signature="tnRegister()[pri:0, instance:testng_code_BatchRunnin_24th_Apr_2023.TNRegisterTest@782859e]" started-at="2023-05-28T22:37:59Z" name="tnRegister" finished-at="2023-05-28T22:38:06Z" duration-ms="7091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tnRegister -->
+      </class> <!-- testng_code_BatchRunnin_24th_Apr_2023.TNRegisterTest -->
+    </test> <!-- Register TN Test -->
+    <test started-at="2023-05-28T22:38:06Z" name="Login TN Test" finished-at="2023-05-28T22:38:12Z" duration-ms="6021">
+      <class name="testng_code_BatchRunnin_24th_Apr_2023.TNLoginTest">
+        <test-method signature="enterTNLoginDetails()[pri:0, instance:testng_code_BatchRunnin_24th_Apr_2023.TNLoginTest@20b2475a]" started-at="2023-05-28T22:38:06Z" name="enterTNLoginDetails" finished-at="2023-05-28T22:38:12Z" duration-ms="6021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTNLoginDetails -->
+      </class> <!-- testng_code_BatchRunnin_24th_Apr_2023.TNLoginTest -->
+    </test> <!-- Login TN Test -->
+  </suite> <!-- Batch Running Test Suite -->
+  <suite started-at="2023-05-28T22:38:12Z" name="Include Exclude Suite" finished-at="2023-05-28T22:38:12Z" duration-ms="2">
+    <groups>
+    </groups>
+    <test started-at="2023-05-28T22:38:12Z" name="Include Exclude Test" finished-at="2023-05-28T22:38:12Z" duration-ms="2">
+      <class name="testng_code_include_exclude_30th_Apr_2023.LogoutTest">
+        <test-method signature="logoutCase1()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.LogoutTest@126253fd]" started-at="2023-05-28T22:38:12Z" name="logoutCase1" finished-at="2023-05-28T22:38:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutCase1 -->
+      </class> <!-- testng_code_include_exclude_30th_Apr_2023.LogoutTest -->
+      <class name="testng_code_include_exclude_30th_Apr_2023.RegisterTest">
+        <test-method signature="registerCase1()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.RegisterTest@57db2b13]" started-at="2023-05-28T22:38:12Z" name="registerCase1" finished-at="2023-05-28T22:38:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCase1 -->
+        <test-method signature="registerCase2()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.RegisterTest@57db2b13]" started-at="2023-05-28T22:38:12Z" name="registerCase2" finished-at="2023-05-28T22:38:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCase2 -->
+      </class> <!-- testng_code_include_exclude_30th_Apr_2023.RegisterTest -->
+      <class name="testng_code_include_exclude_30th_Apr_2023.LoginTest">
+        <test-method signature="loginCase1()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.LoginTest@475c9c31]" started-at="2023-05-28T22:38:12Z" name="loginCase1" finished-at="2023-05-28T22:38:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCase1 -->
+        <test-method signature="loginCase2()[pri:0, instance:testng_code_include_exclude_30th_Apr_2023.LoginTest@475c9c31]" started-at="2023-05-28T22:38:12Z" name="loginCase2" finished-at="2023-05-28T22:38:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCase2 -->
+      </class> <!-- testng_code_include_exclude_30th_Apr_2023.LoginTest -->
+    </test> <!-- Include Exclude Test -->
+  </suite> <!-- Include Exclude Suite -->
+</testng-results>
